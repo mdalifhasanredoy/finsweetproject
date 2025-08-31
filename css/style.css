@@ -44,3 +44,71 @@ ul,ol{
     border-color: transparent;
 }
 /* navbar css end */
+
+
+
+/* banner css start */
+
+.banner{
+    background-color: #1C1E53;
+    padding-top: 126px;
+    padding-bottom: 157px;
+}
+.banner h1{
+    font-size: 54px;
+    font-weight: 600;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    width: 582px;
+    line-height: 71px;
+}
+.banner p{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    width: 562px;
+    line-height: 28px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+.banner .common-button{
+    background: #FCD980;
+    padding: 16px 56px;
+    border-radius: 41px;
+    color: black;
+    border: 1px solid transparent;
+    font-size: 18px;
+    font-weight: 500;
+     font-family: "Manrope", sans-serif;
+    transition: .4s;
+}
+.banner .common-button:hover {
+    border-color: rgba(244, 246, 252, 0.20);
+    background: transparent;
+    color: white;
+}
+.banner .common-button-ani {
+    color: white;
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 40px;
+    position: relative;
+
+}
+.banner .common-button-ani i{
+    position: absolute;
+    top: 5px;
+    left: 102px;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.banner .common-button-ani:hover i{
+    left: 115px;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* banner css end */
