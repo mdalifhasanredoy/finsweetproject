@@ -1,21 +1,26 @@
 /* common css start */
-a{
+a {
     text-decoration: none;
 }
-ul,ol{
+
+ul,
+ol {
     list-style: none;
 }
+
 /* common css end */
 
 /* navbar css start */
-.navbar{
+.navbar {
     background-color: #1C1E53;
     padding: 16px !important;
 }
-.navbar .navbar-nav{
+
+.navbar .navbar-nav {
     column-gap: 32px;
 }
-.navbar .nav-link{
+
+.navbar .nav-link {
     color: #BBBBCB;
     font-size: 16px;
     font-weight: 500;
@@ -23,10 +28,12 @@ ul,ol{
     padding: 0px !important;
     transition: .4s;
 }
-.navbar .nav-item:hover .nav-link{
+
+.navbar .nav-item:hover .nav-link {
     color: white;
 }
-.navbar .navbar-button{
+
+.navbar .navbar-button {
     background: transparent;
     padding: 16px 48px;
     border-radius: 41px;
@@ -38,23 +45,26 @@ ul,ol{
     transition: .5s;
     margin-left: 48px;
 }
+
 .navbar .navbar-button:hover {
     background: #FCD980;
     color: black;
     border-color: transparent;
 }
+
 /* navbar css end */
 
 
 
 /* banner css start */
 
-.banner{
+.banner {
     background-color: #1C1E53;
     padding-top: 126px;
     padding-bottom: 157px;
 }
-.banner h1{
+
+.banner h1 {
     font-size: 54px;
     font-weight: 600;
     color: white;
@@ -62,7 +72,8 @@ ul,ol{
     width: 582px;
     line-height: 71px;
 }
-.banner p{
+
+.banner p {
     font-size: 16px;
     font-weight: 500;
     color: white;
@@ -72,7 +83,8 @@ ul,ol{
     padding-top: 24px;
     padding-bottom: 48px;
 }
-.banner .common-button{
+
+.banner .common-button {
     background: #FCD980;
     padding: 16px 56px;
     border-radius: 41px;
@@ -80,14 +92,16 @@ ul,ol{
     border: 1px solid transparent;
     font-size: 18px;
     font-weight: 500;
-     font-family: "Manrope", sans-serif;
+    font-family: "Manrope", sans-serif;
     transition: .4s;
 }
+
 .banner .common-button:hover {
     border-color: rgba(244, 246, 252, 0.20);
     background: transparent;
     color: white;
 }
+
 .banner .common-button-ani {
     color: white;
     font-size: 16px;
@@ -97,7 +111,8 @@ ul,ol{
     position: relative;
 
 }
-.banner .common-button-ani i{
+
+.banner .common-button-ani i {
     position: absolute;
     top: 5px;
     left: 102px;
@@ -105,7 +120,8 @@ ul,ol{
     opacity: 0;
     visibility: hidden;
 }
-.banner .common-button-ani:hover i{
+
+.banner .common-button-ani:hover i {
     left: 115px;
     opacity: 1;
     visibility: visible;
@@ -115,68 +131,202 @@ ul,ol{
 
 /* work css start */
 .work {
-  padding: 128px 0px;
-  background: #f4f6fc;
+    padding: 128px 0px;
+    background: #f4f6fc;
 }
+
 .work h2 {
-  color: #282938;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 64px;
-  font-family: "Poppins", sans-serif;
+    color: #282938;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    font-family: "Poppins", sans-serif;
 }
+
 .work p {
-  color: #282938;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
-  padding: 16px 0px;
-  width: 405px;
-  line-height: 28px;
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding: 16px 0px;
+    width: 405px;
+    line-height: 28px;
 }
+
 .work a {
-  color: #2405f2;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 32px;
-  font-family: "Poppins", sans-serif;
+    color: #2405f2;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    font-family: "Poppins", sans-serif;
 }
+
 .common-ani {
-  position: relative;
+    position: relative;
 }
+
 .common-icon {
-  position: absolute;
-  top: 5px;
-  right: -34px;
-  transition: 0.5s;
+    position: absolute;
+    top: 5px;
+    right: -34px;
+    transition: 0.5s;
 }
+
 .common-ani:hover .common-icon {
-  right: -50px;
+    right: -50px;
 }
+
 .work .work-box {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
+
 .work .item {
-  width: 48%;
+    width: 48%;
 }
+
 .work .item h4 {
-  color: #282938;
-  font-size: 32px;
-  font-weight: 500;
-  font-family: "Poppins", sans-serif;
-  padding-top: 16px;
-  padding-bottom: 8px;
-  line-height: 48px;
+    color: #282938;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    line-height: 48px;
 }
+
 .work .item p {
-  color: rgba(40, 41, 56, 0.7);
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
-  width: 303px;
-  line-height: 28px;
-  padding: 0px !important;
+    color: rgba(40, 41, 56, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    width: 303px;
+    line-height: 28px;
+    padding: 0px !important;
 }
+
 /* work css end*/
+
+
+/* project css start*/
+.project {
+    padding: 128px 0px;
+}
+
+.project .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 64px;
+}
+
+.project h2 {
+    color: #282938;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    font-family: "Poppins", sans-serif;
+}
+
+.project a {
+    color: #282938;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project img:nth-child(2) {
+    margin-top: 26px;
+}
+
+.overly-ani {
+    position: relative;
+    overflow: hidden;
+}
+
+.overly-ani .overly {
+    width: 52%;
+    height: 100%;
+    background-image: linear-gradient(rgba(28, 30, 83, 0.42), #1C1E53);
+    position: absolute;
+    top: -100%;
+    left: 0%;
+    transition: 0.5s;
+    padding-top: 300px;
+    padding-left: 48px;
+    padding-right: 36px;
+}
+
+.overly-ani:hover .overly {
+    top: 0%;
+}
+
+.overly-ani .overly h4 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: "Poppins", sans-serif;
+}
+
+.overly-ani .overly p {
+    color: rgb(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+}
+
+.overly-ani .overly a {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    color: #fcd980;
+}
+
+.overly-anitwo {
+    position: relative;
+    overflow: hidden;
+}
+
+.overly-anitwo .overly {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(28, 30, 83, 0.42), #1C1E53);
+    position: absolute;
+    top: 0%;
+    left: -100%;
+    transition: 0.5s;
+    padding-top: 129px;
+    padding-left: 56px;
+    padding-right: 36px;
+}
+
+.overly-anitwo:hover .overly {
+    left: 0%;
+}
+
+.overly-anitwo .overly h4 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: "Poppins", sans-serif;
+}
+
+.overly-anitwo .overly a {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    color: #fcd980;
+}
+
+/* project css end*/
