@@ -330,3 +330,68 @@ ol {
 }
 
 /* project css end*/
+
+/* feature css start */
+.feature {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background: #F4F6FC;
+}
+
+.feature .head-part {
+    text-align: center;
+
+}
+
+.feature .head-part h3 {
+    color: #282938;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    width: 630px;
+    line-height: 64px;
+    margin-left: 26%;
+    padding-top: 12px;
+}
+
+.feature .head-part h6 {
+    color: #282938;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    padding-top: 12px;
+}
+
+.feature .feature-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 47px;
+}
+
+.feature .title {
+    height: 316px;
+    width: 405px;
+    background: white;
+    padding: 58px 32px 48px 48px;
+}
+
+.feature .icon h3 {
+    color: #282938;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 22px;
+    padding-bottom: 12px;
+}
+
+.feature .icon p {
+    color: #282938;
+    opacity: 70%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    width: 324px;
+}
+/* feature css end */
