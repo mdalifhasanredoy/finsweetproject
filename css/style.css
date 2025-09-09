@@ -394,4 +394,66 @@ ol {
     line-height: 28px;
     width: 324px;
 }
+
 /* feature css end */
+
+/* client css start */
+.client-part {
+    background: #F9FAFD;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.client-part .left h4 {
+    color: #282938;
+    font-size: 38px;
+    font-weight: 600;
+    width: 327px;
+    font-family: "Poppins", sans-serif;
+}
+
+.client-part .left p {
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 70%;
+    width: 327px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 16px;
+}
+
+.client-part .right h5 {
+    color: #282938;
+    font-size: 32px;
+    font-weight: 500;
+    width: 843px;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 48px;
+}
+
+.client-part .client {
+    display: flex;
+}
+
+.client-part .name {
+    padding-left: 14px;
+}
+
+.client-part .name h6 {
+    color: #282938;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 32px;
+    margin: 0px;
+}
+
+.client-part .name p {
+    color: #282938;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+}
+/* client css end */
