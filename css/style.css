@@ -465,57 +465,75 @@ ol {
 
 /* blog css start */
 
-.blog{
-  padding-top: 77px;
-  padding-bottom: 179px;
+.blog {
+    padding-top: 77px;
+    padding-bottom: 179px;
 
 }
-.blog .card{
-  width: 100% !important;
-  border: 0px;
-  
-}
-.blog h2{
-   color: #282938;
-  font-size: 48px;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  padding-bottom: 64px;
-}
-.blog .card-body{
-  padding: 0px;
-}
-.blog .card-date{
-  color: rgba(40, 41, 56, 0.70);
-  font-size: 16px;
-  font-weight: 500;
-  font-family: "Poppins", sans-serif;
-  padding-top: 40px;
-  padding-bottom: 16px;
-}
-.blog .card-title{
-  color: #282938;
-  font-size: 24px;
-  font-weight: 500;
-  font-family: "Poppins", sans-serif;
- 
+
+.blog .card {
+    width: 100% !important;
+    border: 0px;
 
 }
-.blog .card-text{
-  color: rgba(40, 41, 56, 0.70);
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
-  padding-top: 16px;
-  padding-bottom: 32px;
-  margin: 0px;
+
+.blog h2 {
+    color: #282938;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 64px;
 }
 
-.blog a{
-  color: rgba(40, 41, 56,0.70);
-  font-size: 16px;
-  font-weight: 500;
-  font-family: "Poppins", sans-serif;
+.blog .card-body {
+    padding: 0px;
+}
+
+.blog .card-date {
+    color: rgba(40, 41, 56, 0.70);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+
+.blog .card-title {
+    color: #282938;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+.blog .card-text {
+    color: rgba(40, 41, 56, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    margin: 0px;
+}
+
+.blog a {
+    color: rgba(40, 41, 56, 0.70);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+.blog a i {
+    position: absolute;
+    top: 5px;
+    left: 88px;
+    transition: .5s;
+}
+
+.blog a:hover i {
+    left: 100px;
 }
 
 /* blog css end */
