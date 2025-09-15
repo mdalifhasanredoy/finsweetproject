@@ -463,6 +463,227 @@ ol {
 
 /* client css end */
 
+/* faq css start */
+.faq {
+    padding: 128px 0px;
+
+}
+
+.faq h3 {
+    color: #282938;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 16px;
+
+
+}
+
+.faq a {
+    color: royalblue;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+.faq a i {
+    position: absolute;
+    top: 4px;
+    left: 223px;
+    transition: .5s;
+}
+
+.faq a:hover i {
+    left: 233px;
+}
+
+.accordion-header {
+    padding: 15px 0px;
+}
+
+.accordion-button {
+    color: #282938;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+.accordion-button span {
+    color: #2405F2;
+    margin-right: 59px;
+
+
+
+}
+
+.accordion-body {
+    margin: 0px 84px;
+}
+
+.accordion-button {
+    background: transparent !important;
+
+}
+
+.accordion-item {
+    border: 0px !important;
+}
+
+.accordion-button::after {
+    background: 0 !important;
+    content: "+";
+    transform: translateY(-30%) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background: 0 !important;
+    content: "x";
+    transform: translateY(-30%) !important;
+
+}
+
+/* faq css end */
+
+/* contact css start */
+.contact img {
+    width: 100%;
+}
+
+.contact-left {
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-left .overlay {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(28, 30, 83, 0.42), #1C1E53);
+    position: absolute;
+    top: 0%;
+    left: -100%;
+    transition: 0.5s;
+    padding-top: 96px;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+
+.contact-left:hover .overlay {
+    left: 0%;
+}
+
+.contact-left .overlay h4 {
+    color: #fff;
+    font-size: 54px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact-left .overlay p {
+    color: rgb(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+}
+
+.contact-content {
+    background: #1C1E53;
+    width: 100%;
+    padding-top: 96px;
+    padding-left: 70px;
+    padding-right: 50px;
+    height: 588px;
+}
+
+.contact .row {
+    --bs-gutter-x: 0rem !important;
+}
+
+.contact h4 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.contact p {
+    color: #F4F6FC;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+}
+
+.contact input {
+    width: 100%;
+    margin: 5px 0px;
+    padding: 18px 32px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 8px;
+    color: #F4F6FC;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+.contact input::placeholder {
+    color: rgba(255, 255, 255, 0.22);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact button {
+    background: #FCD980;
+    width: 100%;
+    padding: 16px 0px;
+    border: 0px;
+    border-radius: 41px;
+    margin-top: 26px;
+    margin-bottom: 33px;
+    color: #1B1C2B;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid transparent;
+    transition: .5s;
+}
+
+.contact button:hover {
+    border-color: rgba(244, 246, 252, 0.20);
+    background: transparent;
+    color: white;
+}
+
+.contact .common-button-ani {
+    display: inline-block;
+    margin-left: 138px;
+    margin-bottom: 35px;
+    position: relative;
+
+}
+.contact .common-button-ani i {
+    position: absolute;
+    top: 5px;
+    left: 142px;
+    transition: .5s;
+}
+
+.contact .common-button-ani:hover i {
+    left: 152px;
+}
+
+/* contact css end */
+
 /* blog css start */
 
 .blog {
