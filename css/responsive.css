@@ -376,4 +376,61 @@
     }
 
     /* contact part end */
+
+    /* blog part start */
+    .blog {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /* blog part end */
+    /* last part start */
+    .lastpart {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .lastpart .col-lg-6 p {
+
+        font-size: 12px;
+
+        width: auto;
+    }
+
+    .lastbox {
+        width: 296px;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+
+    .lastpart .lastbox .l1 h5 {
+        padding-left: 8px;
+        padding-top: 12px;
+    }
+
+    .lastpart .lastbox .l1 p {
+        padding-left: 6px;
+
+    }
+
+    .lastpart .lastbox .l2 h5 {
+        padding-top: 12px;
+        padding-left: 0px;
+    }
+
+    .lastpart .l2 {
+        padding-left: 40px;
+    }
+
+    .lastnav p {
+
+        font-size: 13px;
+
+        margin-top: 5px;
+    }
+
+    
+
+
+    /* last part end */
 }
