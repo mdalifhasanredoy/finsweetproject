@@ -1,0 +1,119 @@
+@media (min-width:320px) and (max-width:575.99px) {
+
+    /* navbar part start */
+    .navbar-brand img {
+        width: 85%;
+    }
+
+    .navbar-toggler {
+        border: 0px;
+        margin-right: -20px;
+
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0px 0px 0px transparent !important;
+    }
+
+    .fa-solid {
+        color: white;
+        font-size: 16px;
+    }
+
+    .navbar-collapse {
+        background: #330578ba;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .navbar-nav {
+        padding: 20px 0px;
+        align-items: center;
+    }
+
+    .nav-item {
+        padding: 10px 0px;
+    }
+
+    .navbar-button {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .navbar .nav-item:hover .nav-link {
+        color: #BBBBCB;
+    }
+
+    .navbar .navbar-button:hover {
+        background: transparent;
+        color: white;
+        border-color: rgba(244, 246, 252, 0.20);
+    }
+
+    .navbar .navbar-button {
+        padding: 14px 32px;
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .button-box {
+        text-align: center;
+    }
+
+    /* navbar part end */
+    /* banner part start */
+    .banner{
+        padding-top: 40px;
+        padding-bottom: 123px;
+    }
+    .banner h1 {
+        font-size: 32px;
+        width: auto;
+        line-height: 57px;
+    }
+
+    .banner p {
+        font-size: 14px;
+        width: auto;
+        padding-top: 8px;
+        padding-bottom: 29px;
+    }
+
+    .banner .common-button {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    .banner .common-button:hover {
+        border-color: transparent;
+        background: #FCD980;
+        color: black;
+    }
+
+    .banner .common-button-ani {
+        font-size: 14px;
+        margin-left: 34px;
+    }
+
+    .banner .common-button-ani i {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .banner .common-button-ani:hover i {
+        left: 88px;
+
+    }
+
+    .image-box {
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .image-box img {
+        width: 90%;
+
+    }
+
+    /* banner part end */
+}
