@@ -118,6 +118,11 @@
 
     /* banner part end */
     /* work part start */
+    .work {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
     .work h2 {
         font-size: 34px;
 
@@ -152,4 +157,80 @@
     }
 
     /* work part end */
+    /* project part start */
+    .project {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .project .box {
+        display: block;
+
+    }
+
+    .project h2 {
+        font-size: 32px;
+    }
+
+    .project a i {
+        color: black;
+    }
+
+    .overly-ani {
+        margin-bottom: 30px;
+    }
+
+    .overly-ani .overly {
+        width: 52%;
+        height: 100%;
+        background-image: linear-gradient(rgba(28, 30, 83, 0.42), #1C1E53);
+        top: 0%;
+        left: 0%;
+
+    }
+
+    .overly-ani:hover .overly {
+        top: 0%;
+    }
+
+    .overly-anitwo {
+        margin-bottom: 30px;
+    }
+
+    .overly-anitwo .overly {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(rgba(28, 30, 83, 0.42), #1C1E53);
+        top: 0%;
+        left: 0%;
+    }
+
+
+    .overly-anitwo:hover .overly {
+        left: 0%;
+    }
+
+    .overly-anitwo .overly h4 {
+        font-size: 0px;
+    }
+
+    .overly-anitwo .overly a {
+        font-size: 0px;
+    }
+
+    /* project part end */
+    /* feature part start */
+    .feature {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .feature h2 {
+        font-size: 32px;
+        width: auto;
+        line-height: 48px;
+
+    }
+
+    /* feature part end */
 }
