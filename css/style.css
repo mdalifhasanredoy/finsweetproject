@@ -758,3 +758,92 @@ ol {
 }
 
 /* blog css end */
+
+/* last part css start */
+.lastpart{
+    background: #1C1E53;
+}
+.lastpart{
+   padding-top: 96px;
+}
+.lastpart .col-lg-6 p{
+   font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    width:399px;
+    height: 56px;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255,0.6);
+   
+    padding-top: 22px;
+    padding-bottom: 0px;
+    margin-bottom: 86px;
+}
+.lastbox{
+    width: 516px;
+    height: 95px;
+    background: #FCD980;
+    display: flex;
+}
+.lastpart .lastbox .l1{
+    width: 258px;
+    height: 95px;
+
+}
+.lastpart .lastbox .l2{
+    width: 258px;
+    height: 95px;
+}
+.lastpart .lastbox h5{
+     font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    font-size: 18px;
+    color: #282938;
+}
+.lastpart .lastbox p{
+     font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    font-size: 16px;
+    color: #282938;
+    padding: 0px;
+}
+.lastpart .lastbox .l1 h5{
+    padding-left: 37px;
+    padding-top: 18px;
+}
+.lastpart .lastbox .l1 p{
+    padding-left: 37px;
+    
+}
+.lastpart .lastbox .l2 h5{
+   
+    padding-top: 18px;
+}
+.lastpart .col-lg-6 h4{
+    font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+}
+.lastpart .col-lg-6 .lasttext p{
+    margin-bottom: 0px !important;
+}
+.lastpart .col-lg-6 .lasttext img{
+    margin-top: 75px;
+}
+.lastnav{
+    background: #FFFFFF !important;
+}
+.lastnav ul li a{
+    color: rgba(40, 41, 56,1) !important;
+    
+}
+.lastnav p{
+    font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    font-size: 16px;
+    color: #282938;
+    margin-top: 12px;
+}
+
+/* last part css end */
