@@ -233,4 +233,147 @@
     }
 
     /* feature part end */
+
+    /* client part start */
+    .client h3 {
+
+        font-size: 29px;
+
+        line-height: 40px;
+
+        width: auto;
+    }
+
+    .client p {
+
+        width: auto;
+    }
+
+    .client h4 {
+
+        font-size: 25px;
+
+        line-height: 34px;
+        padding-bottom: 30px;
+    }
+
+    /* client part end */
+
+    /* faq part start */
+    .faq h3 {
+
+        font-size: 34px;
+
+        width: auto;
+    }
+
+    .faq a:hover i {
+        left: 223px;
+    }
+
+    .accordion-button {
+
+        font-size: 14px;
+
+    }
+
+    .accordion-button span {
+        margin-right: 27px;
+    }
+
+    .accordion-body {
+        width: auto;
+        font-size: 12px;
+        margin: -27px 42px;
+    }
+
+    /* faq part end */
+
+    /* contact part start */
+    .contact {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .contact-left .overlay {
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        left: 0%;
+
+    }
+
+    .contact-left:hover .overlay {
+        left: 0%;
+    }
+
+    .contact-left .overlay h4 {
+        font-size: 21px;
+        width: auto
+    }
+
+    .contact-left .overlay p {
+
+        font-size: 9px;
+
+        line-height: 18px;
+    }
+
+    .contact-content {
+
+        padding-top: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .contact h4 {
+        font-size: 20px;
+
+    }
+
+    .contact p {
+
+        font-size: 11px;
+
+        width: auto;
+    }
+
+    .contact input {
+
+        margin: 3px 0px;
+        padding: 14px 14px;
+
+        font-size: 11px;
+
+    }
+
+    .contact input::placeholder {
+        font-size: 10px;
+    }
+
+    .contact button {
+
+        padding: 6px 0px;
+
+        font-size: 11px;
+
+    }
+
+    .contact button:hover {
+        border-color: rgba(244, 246, 252, 0.20);
+        background: #FCD980;
+        color: black;
+    }
+
+    .contact .common-button-ani {
+
+        margin-left: 63px;
+
+    }
+
+    .contact .common-button-ani:hover i {
+        left: 142px;
+    }
+
+    /* contact part end */
 }
